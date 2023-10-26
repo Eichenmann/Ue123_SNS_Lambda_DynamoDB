@@ -11,5 +11,6 @@ terraform {
 
 provider "aws" {
   region = var.region
-  profile = "sandbox"
-}
+    access_key =""
+    secret_key = ""
+    token = ""
